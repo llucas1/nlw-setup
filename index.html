@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <title>Habits</title>
+  
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <!-- Cabeçalho-->
+  <header>
+    <img src="./assets/logo.svg" alt="Logomarca do aplicativo habits">
+    <button>
+      <img src="./assets/plus.svg" alt="icnone sinal de mais roxo" onclick="registrar()">
+      <div>
+        Registrar meu dia
+    </button>
+    </div>
+  </header>
+  <!-- Inicio do formulario-->
+  <form id="form-habits">
+    <!-- habitos do dia dia-->
+    <div class="habits">
+      <div class="habit" data-name="run">🏃</div>
+      <div class="habit" data-name="water">💧</div>
+      <div class="habit" data-name="food">🥞</div>
+      <div class="habit" data-name="journal">📚</div>
+    </div>
+    <!-- onde ira as datas -->
+    <div class="days">
+      <div class="day">
+
+      </div>
+    </div>
+  </form>
+  <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

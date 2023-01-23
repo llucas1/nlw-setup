@@ -1,0 +1,101 @@
+/* seletor universal*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  height: 100vh;
+}
+/* estiliando o top*/
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  padding: 48px;
+}
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+/* inicio do form */
+#form-habits {
+  display: flex;
+  padding: 11.375rem 3rem 3rem;
+  width: fit-content;
+}
+.habits {
+  margin-top: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.habit {
+  width: 64px;
+  height: 64px;
+
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.days {
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.day div {
+  margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  color: #a1a1aa;
+  text-align: center;
+}
+
+/* inicio do input */
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272a;
+  border-radius: 8px;
+
+  background: #18181b;
+}
+input:checked {
+  /* quando o input estiver marcado muda a cor */
+  background-color: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+/* resposividade do header para sumir o texto*/
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
