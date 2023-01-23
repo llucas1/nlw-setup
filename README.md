@@ -32,6 +32,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+- [Visite o projeto online](https://llucas1.github.io/nlw-setup/)
+
 O Habits é um app para ajudar a rastrear os hábitos.
 
 ## 🔖 Layout
